@@ -28,7 +28,7 @@ function Home() {
                   <h2 className="title is-4">Education</h2>
                   <p>
                     <b>
-                      <a href="https://www.kaist.edu/en/">KAIST</a>
+                      <a href="https://kaist.ac.kr/">KAIST</a>
                     </b>
                     <br />
                     Majoring Computer Science (Mar 2019 ~)
@@ -84,9 +84,7 @@ function Home() {
                     <br />
 
                     <div>
-                      <b>
-                        <a href="https://apply.sparcs.org/">SPARCSApply</a>
-                      </b>
+                      <b>apply.SPARCS</b>
                       <a
                         style={{ marginLeft: "1rem" }}
                         href="https://github.com/litmify/SPARCSApply"
@@ -101,6 +99,51 @@ function Home() {
                 </div>
 
                 <div className="container right-desc">
+                  <h2 className="title is-4">Experiences</h2>
+                  <ul>
+                    <li>
+                      <b>
+                        <a href="https://sparcs.org">SPARCS</a> @ KAIST
+                      </b>
+                      <br />
+                      <ul>
+                        <li>
+                          <b>President</b> - 2020
+                        </li>
+                        <li>
+                          Member of{" "}
+                          <a href="https://newara.sparcs.org">NewARA</a> team -
+                          2020: Frontend Developer
+                        </li>
+                        <li>
+                          Contributed to{" "}
+                          <a href="https://zabo.sparcs.org">Zabo</a> - 2020
+                        </li>
+                        <li>Regular Member - 2019 ~</li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                  <br />
+
+                  <div>
+                    <b>ScoreBon</b> - 2020
+                    <br />
+                    React-Native based hybrid application.
+                    <br />
+                  </div>
+
+                  <br />
+
+                  <div>
+                    <b>Apic</b> - 2020
+                    <br />
+                    React-Native based live camera / filter application.
+                    <br />
+                  </div>
+                </div>
+
+                <div className="container right-desc">
                   <h2 className="title is-4">
                     Honors, Awards and Accomplishments
                   </h2>
@@ -111,20 +154,6 @@ function Home() {
                       Overseer - <i>Grand Prix</i>
                     </li>
                     <br />
-                    <li>
-                      <b>SPARCS</b>
-                      <br />
-                      <ul>
-                        <li>
-                          <b>President</b> - 2020
-                        </li>
-                        <li>
-                          Member of <a href="https://zabo.sparcs.org">Zabo</a>{" "}
-                          team - 2020
-                        </li>
-                        <li>Regular Member - 2019 ~ Present</li>
-                      </ul>
-                    </li>
                   </ul>
                 </div>
               </div>
