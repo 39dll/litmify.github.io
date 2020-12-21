@@ -87,7 +87,7 @@ function Home() {
                       <b>apply.SPARCS</b>
                       <a
                         style={{ marginLeft: "1rem" }}
-                        href="https://github.com/litmify/SPARCSApply"
+                        href="https://github.com/litmify/apply-sparcs"
                       >
                         Github
                       </a>
