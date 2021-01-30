@@ -10,7 +10,7 @@ function Home() {
             <div className="columns">
               <div className="column is-half">
                 <h1 className="title">litmify</h1>
-                <h2 className="subtitle">Fi @ SPARCS</h2>
+                {/* <h2 className="subtitle">hello cruel world</h2> */}
                 <p>
                   <b>Mail</b>
                   <br />
@@ -22,8 +22,17 @@ function Home() {
                   <br />
                   <a href="https://github.com/litmify">@litmify</a>
                 </p>
+                <br />
+                <p>
+                  <b>LinkedIn</b>
+                  <br />
+                  <a href="https://www.linkedin.com/in/litmify/">in/litmify</a>
+                </p>
               </div>
-              <div className="column">
+              <div
+                className="column"
+                style={{ overflow: "scroll", maxHeight: '70vh', overflowX: 'hidden' }}
+              >
                 <div className="container right-desc">
                   <h2 className="title is-4">Education</h2>
                   <p>
@@ -36,7 +45,59 @@ function Home() {
                 </div>
 
                 <div className="container right-desc">
+                  <h2 className="title is-4">Experiences</h2>
+                  <ul>
+                    <li>
+                      <b>
+                        <a
+                          style={{ color: "rgb(255, 118, 34)" }}
+                          href="https://devsisters.com"
+                        >
+                          DEVSISTERS
+                        </a>
+                      </b>
+                      <br />
+                      <b>Data software engineer</b> - 2021.01 ~
+                    </li>
+                  </ul>
+
+                  <br />
+
+                  <ul>
+                    <li>
+                      <b>
+                        <a
+                          style={{ color: "rgb(235, 160, 042)" }}
+                          href="https://sparcs.org"
+                        >
+                          SPARCS
+                        </a>{" "}
+                        @ KAIST
+                      </b>
+                      <br />
+                      <ul>
+                        <li>
+                          <b>President</b> - 2020
+                        </li>
+                        <li>
+                          Member of{" "}
+                          <a href="https://newara.sparcs.org">NewARA</a> team -
+                          2020: Frontend Developer
+                        </li>
+                        <li>
+                          Contributed to{" "}
+                          <a href="https://zabo.sparcs.org">Zabo</a> - 2020
+                        </li>
+                        <li>Regular Member - 2019 ~</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="container right-desc">
                   <h2 className="title is-4">Projects</h2>
+
+                  <h6 className="title is-6">Originals</h6>
                   <div>
                     <div>
                       <b>
@@ -96,35 +157,10 @@ function Home() {
                       <br />
                     </div>
                   </div>
-                </div>
 
-                <div className="container right-desc">
-                  <h2 className="title is-4">Experiences</h2>
-                  <ul>
-                    <li>
-                      <b>
-                        <a href="https://sparcs.org">SPARCS</a> @ KAIST
-                      </b>
-                      <br />
-                      <ul>
-                        <li>
-                          <b>President</b> - 2020
-                        </li>
-                        <li>
-                          Member of{" "}
-                          <a href="https://newara.sparcs.org">NewARA</a> team -
-                          2020: Frontend Developer
-                        </li>
-                        <li>
-                          Contributed to{" "}
-                          <a href="https://zabo.sparcs.org">Zabo</a> - 2020
-                        </li>
-                        <li>Regular Member - 2019 ~</li>
-                      </ul>
-                    </li>
-                  </ul>
+                  <hr />
 
-                  <br />
+                  <h6 className="title is-6">Outsourcing</h6>
 
                   <div>
                     <b>ScoreBon</b> - 2020
